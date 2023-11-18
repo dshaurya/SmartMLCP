@@ -87,7 +87,7 @@ void loop() {
   int myfreeslot = getFreeParkingSlot();
   if (myfreeslot > 0) {
     lcd.setCursor(0, 0);
-    lcd.print("WELCOME!");
+    lcd.print("WELCOME !     ");
     lcd.setCursor(0, 1);
     lcd.print("Park at  ");
     lcd.print(myfreeslot);
